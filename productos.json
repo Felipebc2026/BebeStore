@@ -2,16 +2,16 @@
   {
     "nombre": "Body de algodón",
     "precio": 9990,
-    "imagen": "https://via.placeholder.com/300x300.png?text=Body+Bebe"
+    "imagen": "img/body.jpg"
   },
   {
     "nombre": "Manta suave",
     "precio": 12990,
-    "imagen": "https://via.placeholder.com/300x300.png?text=Manta+Bebe"
+    "imagen": "img/manta.jpg"
   },
   {
     "nombre": "Juguete sensorial",
     "precio": 7990,
-    "imagen": "https://via.placeholder.com/300x300.png?text=Juguete+Bebe"
+    "imagen": "img/juguete.jpg"
   }
 ]
