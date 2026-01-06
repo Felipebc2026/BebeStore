@@ -1,0 +1,9 @@
+BebeStore
+├─ index.html
+├─ styles.css
+├─ app.js
+├─ productos.json
+└─ img
+   ├─ body.jpg
+   ├─ manta.jpg
+   └─ juguete.jpg
