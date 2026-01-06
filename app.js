@@ -1,19 +1,18 @@
-fetch('productos.json')
-  .then(res => res.json())
-  .then(productos => {
-    const contenedor = document.getElementById('productos');
+fetch("productos.json")
+  .then(response => response.json())
+  .then(data => {
+    const contenedor = document.getElementById("productos");
 
-    productos.forEach(p => {
-      const card = document.createElement('div');
-      card.className = 'card';
+    data.forEach(producto => {
+      const div = document.createElement("div");
+      div.className = "card";
 
-      card.innerHTML = `
-        <img src="${p.imagen}" alt="${p.nombre}">
-        <h3>${p.nombre}</h3>
-        <p>$${p.precio.toLocaleString()}</p>
+      div.innerHTML = `
+        <img src="${producto.imagen}">
+        <h3>${producto.nombre}</h3>
+        <p>$${producto.precio}</p>
       `;
 
-      contenedor.appendChild(card);
+      contenedor.appendChild(div);
     });
-  })
-  .catch(err => console.error('Error cargando productos', err));
+  });
