@@ -78,3 +78,10 @@ header p {
   font-size: 26px;
   margin-bottom: 10px;
 }
+.card img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  margin: 0 auto 10px;
+  display: block;
+}
