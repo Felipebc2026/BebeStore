@@ -55,3 +55,26 @@ footer {
   padding: 20px;
   background: #eee;
 }
+/* === Mejora visual baby-style === */
+
+header p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 18px;
+}
+
+.intro h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
