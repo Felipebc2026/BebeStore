@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "Body algodón suave",
+    "precio": 9990,
+    "imagen": "https://via.placeholder.com/300x300?text=Body+Bebe"
+  },
+  {
+    "id": 2,
+    "nombre": "Manta térmica bebé",
+    "precio": 12990,
+    "imagen": "https://via.placeholder.com/300x300?text=Manta+Bebe"
+  },
+  {
+    "id": 3,
+    "nombre": "Juguete sensorial",
+    "precio": 7990,
+    "imagen": "https://via.placeholder.com/300x300?text=Juguete+Bebe"
+  }
+]
