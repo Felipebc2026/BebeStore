@@ -1,18 +1,18 @@
-fetch("productos.json")
-  .then(response => response.json())
-  .then(data => {
-    const contenedor = document.getElementById("productos");
+fetch('productos.json')
+  .then(res => res.json())
+  .then(productos => {
+    const contenedor = document.getElementById('productos');
 
-    data.forEach(producto => {
-      const div = document.createElement("div");
-      div.className = "card";
+    productos.forEach(p => {
+      const card = document.createElement('div');
+      card.className = 'card';
 
-      div.innerHTML = `
-        <img src="${producto.imagen}">
-        <h3>${producto.nombre}</h3>
-        <p>$${producto.precio}</p>
+      card.innerHTML = `
+        <img src="${p.imagen}" alt="${p.nombre}" />
+        <h3>${p.nombre}</h3>
+        <p class="precio">$${p.precio}</p>
       `;
 
-      contenedor.appendChild(div);
+      contenedor.appendChild(card);
     });
   });
